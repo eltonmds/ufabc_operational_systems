@@ -1,0 +1,7 @@
+\chapter{Questao 1}
+
+\subsection*{Resposta}
+
+Na primeira iteração onde o valor de i é igual a 0, é printado o valor de i e o pid do processo original.\\ 
+    Após isso, para cada iteração, é executado o comando fork e é criado um novo processo. Cada processo criado em uma dada iteração executará as iterações restantes, isto é, serão printados o valor de i e do pid do processo.\\
+    Como nesse caso, são executadas 2 iterações, tem-se apenas 2 pids printados na tela, do processo original e do processo criado na primeira iteração. Há ainda um terceiro processo criado na segunda iteração, mas como não há iterações restantes para ele executar, não é printado na tela.
