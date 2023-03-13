@@ -1,0 +1,3 @@
+Paint, 2, 1
+Meu joguinho, 0, 190
+Firefox, 0, 20
