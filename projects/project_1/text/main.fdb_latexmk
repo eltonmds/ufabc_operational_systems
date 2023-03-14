@@ -4,7 +4,7 @@
   (generated)
   "main.ilg"
   "main.ind"
-["pdflatex"] 1678824035 "/home/pessoal/repos/ufabc_operational_systems/projects/project_1/text/main.tex" "main.pdf" "main" 1678824035
+["pdflatex"] 1678837365 "/home/pessoal/repos/ufabc_operational_systems/projects/project_1/text/main.tex" "main.pdf" "main" 1678837365
   "/etc/texmf/web2c/texmf.cnf" 1677288678 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/pessoal/repos/ufabc_operational_systems/projects/project_1/text/main.tex" 1678812618 1104 943aee49962fff00b6175ef30c54d284 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -175,10 +175,10 @@
   "abntex2-modelo-include-comandos.aux" 0 -1 0 "pdflatex"
   "abntex2-modelo-include-comandos.tex" 0 -1 0 ""
   "chapters/p1.tex" 1678812857 8142 fa26d99f20a0da8afd1134c48fa2628b ""
-  "chapters/p2.tex" 1678824025 1986 8b62af66b65bc127cf76f1e0737f29c0 ""
+  "chapters/p2.tex" 1678837363 1930 93ed325c6bdb573c94f3b3eafe42025b ""
   "config/config_class.tex" 1678812776 5349 b7d96a9ea5697a6e8426d7fb7fed7631 ""
   "images/SO_P1P1.png" 1678677686 89337 1be846a3893760c35198b14ed63e36c4 ""
-  "main.aux" 1678824035 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.aux" 1678837365 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main.ind" 0 -1 0 "makeindex main.idx"
   "main.tex" 1678812618 1104 943aee49962fff00b6175ef30c54d284 ""
   (generated)

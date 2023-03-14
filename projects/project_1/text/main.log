@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.24)  14 MAR 2023 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.24)  14 MAR 2023 20:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,13 +1165,13 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7.
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-./chapters/p2.tex:25: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+./chapters/p2.tex:24: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25         printf("O conteúdo 
+l.24         printf("O conteúdo 
                                  de 'valor1' é: %d\n", valor1);
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1180,13 +1180,13 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-./chapters/p2.tex:25: LaTeX Error: Invalid UTF-8 byte "BA.
+./chapters/p2.tex:24: LaTeX Error: Invalid UTF-8 byte "BA.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25         printf("O conteúdo 
+l.24         printf("O conteúdo 
                                  de 'valor1' é: %d\n", valor1);
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1195,13 +1195,13 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-./chapters/p2.tex:25: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+./chapters/p2.tex:24: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25         printf("O conteúdo de 'valor1' é:
+l.24         printf("O conteúdo de 'valor1' é:
                                                  %d\n", valor1);
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1210,13 +1210,13 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-./chapters/p2.tex:25: LaTeX Error: Invalid UTF-8 byte "A9.
+./chapters/p2.tex:24: LaTeX Error: Invalid UTF-8 byte "A9.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25         printf("O conteúdo de 'valor1' é:
+l.24         printf("O conteúdo de 'valor1' é:
                                                  %d\n", valor1);
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1243,18 +1243,18 @@ Your command will be ignored, type <return> to proceed
 
 [10] (./main.aux (./abntex2-modelo-include-comandos.aux)) ) 
 Here is how much of TeX's memory you used:
- 23021 strings out of 480171
- 378001 string characters out of 5894489
+ 23017 strings out of 480171
+ 377941 string characters out of 5894489
  1364458 words of memory out of 5000000
  40292 multiletter control sequences out of 15000+600000
  506077 words of font info for 75 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,13n,96p,1071b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (10 pages, 291607 bytes).
+Output written on main.pdf (10 pages, 291313 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 395 compressed objects within 4 object streams
- 260 named destinations out of 1000 (max. 500000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
+ 256 named destinations out of 1000 (max. 500000)
  24098 words of extra memory for PDF output out of 24883 (max. 10000000)
 

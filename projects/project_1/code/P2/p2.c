@@ -3,7 +3,6 @@
 #include <stdlib.h> /* system call - exit */
 #include <unistd.h> /* system call - fork, exec, sleep */
 #include <stdio.h>
-
 /* Lib - System Call Signal */
 #include <signal.h>
 
@@ -19,7 +18,6 @@ void finish_process() {
     printf("O conteúdo de 'valor1' é: %d\n", valor1);
     printf("Encerrando o processo...\n");
     exit(0);
-    printf("Processo encerrado.\n");
 }
 
 /* Definicao da funcao em C que ira tratar das interrupcoes */
@@ -29,15 +27,13 @@ void signal_handler(int signum) {
     }
     else if (signum == SIGINT) {
         char deseja_parar;
-        printf("Deseja realmente parar o processo?\nSe sim, digite x.\n");
-        scanf("&c", deseja_parar);
+        printf("Deseja realmente parar o processo? Se sim, digite x.\n");
+        scanf("%c", &deseja_parar);
         if (deseja_parar == 'x' || deseja_parar == 'X') {
             finish_process();
         }
     } 
 }
-
-
 
 
 
