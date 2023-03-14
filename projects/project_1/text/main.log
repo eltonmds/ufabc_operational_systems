@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.24)  13 MAR 2023 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.24)  14 MAR 2023 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -813,113 +813,28 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/pythontex/pythontex.sty
-Package: pythontex 2021/06/06 v0.18 execute and typeset Python code and other languages
- (/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
-Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
- (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
-\FV@CodeLineNo=\count369
-\FV@InFile=\read5
-\FV@TabBox=\box63
-\c@FancyVerbLine=\count370
-\FV@StepNumber=\count371
-\FV@OutFile=\write5
-) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
- (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count372
-\output=\toks42
-\linenoprevgraf=\count373
-\linenumbersep=\dimen275
-\linenumberwidth=\dimen276
-\c@linenumber=\count374
-\c@pagewiselinenumber=\count375
-\c@LN@truepage=\count376
-\c@internallinenumber=\count377
-\c@internallinenumbers=\count378
-\quotelinenumbersep=\dimen277
-\bframerule=\dimen278
-\bframesep=\dimen279
-\bframebox=\box64
-LaTeX Info: Redefining \\ on input line 3056.
-)
-\c@FV@TrueTabGroupLevel=\count379
-\c@FV@TrueTabCounter=\count380
-\FV@TabBox@Group=\box65
-\FV@TmpLength=\skip262
-\c@FV@HighlightLinesStart=\count381
-\c@FV@HighlightLinesStop=\count382
-\FV@LoopCount=\count383
-\FV@NCharsBox=\box66
-\FV@BreakIndent=\dimen280
-\FV@BreakIndentNChars=\count384
-\FV@BreakSymbolSepLeft=\dimen281
-\FV@BreakSymbolSepLeftNChars=\count385
-\FV@BreakSymbolSepRight=\dimen282
-\FV@BreakSymbolSepRightNChars=\count386
-\FV@BreakSymbolIndentLeft=\dimen283
-\FV@BreakSymbolIndentLeftNChars=\count387
-\FV@BreakSymbolIndentRight=\dimen284
-\FV@BreakSymbolIndentRightNChars=\count388
-\c@FancyVerbLineBreakLast=\count389
-\FV@LineBox=\box67
-\FV@LineIndentBox=\box68
-\FV@LineWidth=\dimen285
-) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count390
-\decimalpart=\count391
-)
-Package: xstring 2021/07/21 v1.84 String manipulations (CT)
-) (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
-Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
- (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-\pgfopts@list@add@a@toks=\toks43
-\pgfopts@list@add@b@toks=\toks44
-) (/usr/share/texlive/texmf-dist/tex/latex/newfloat/newfloat.sty
-Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
-) (/usr/share/texlive/texmf-dist/tex/latex/currfile/currfile.sty
-Package: currfile 2020/09/29 v0.7d Provides the file path elements of the current input file
- (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2020/09/29 v0.8a Hooks for input files
- (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-2020.sty
-Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
-))
-\c@currfiledepth=\count392
-)
-\pytx@codefile=\write6
-\openout6 = `main.pytxcode'.
-
-\c@pytx@FancyVerbLineTemp=\count393
-\c@pytx@py@default@default=\count394
-\c@pytx@pycon@default@default=\count395
-\c@pytx@sympy@default@default=\count396
-\c@pytx@sympycon@default@default=\count397
-\c@pytx@pylab@default@default=\count398
-\c@pytx@pylabcon@default@default=\count399
+ (/usr/share/texlive/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty
+Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivier Verdier <olivier.verdier@gmail.com>
 ) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count400
-\l__pdf_internal_box=\box69
+\l__color_backend_stack_int=\count369
+\l__pdf_internal_box=\box63
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count401
-\l__lipsum_a_int=\count402
-\l__lipsum_b_int=\count403
+\g__lipsum_par_int=\count370
+\l__lipsum_a_int=\count371
+\l__lipsum_b_int=\count372
  (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
  (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip263
-\ABCIauxlen=\skip264
-\c@ABCIaux=\count404
-\c@ABCImax=\count405
+\minimumbiblabelwidth=\skip262
+\ABCIauxlen=\skip263
+\c@ABCIaux=\count373
+\c@ABCImax=\count374
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -927,24 +842,30 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip265
+\biblabelsep=\skip264
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
-\ABCItoken=\toks45
+\ABCItoken=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2021/02/04 v1.41 Bibliographical back referencing
 )
-
-Package PythonTeX Warning: Non-existent printed content on input line 57.
+./config/config_class.tex:56: Undefined control sequence.
+l.56 \printpythontex
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 142.
-\c@quadro=\count406
-\c@loqdepth=\count407
-\cftbeforequadroskip=\skip266
-\cftquadroindent=\skip267
-\cftquadronumwidth=\skip268
-\main@idxfile=\write7
-\openout7 = `main.idx'.
+\c@quadro=\count375
+\c@loqdepth=\count376
+\cftbeforequadroskip=\skip265
+\cftquadroindent=\skip266
+\cftquadronumwidth=\skip267
+\main@idxfile=\write5
+\openout5 = `main.idx'.
 
 Writing index file main.idx 
 ) (./main.aux)
@@ -976,7 +897,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count408
+\c@section@level=\count377
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -984,21 +905,21 @@ LaTeX Info: Redefining \nameref on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
-\myptabbox=\box70
-\myptabboxwidth=\skip269
+\myptabbox=\box64
+\myptabboxwidth=\skip268
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count409
-\scratchdimen=\dimen286
-\scratchbox=\box71
-\nofMPsegments=\count410
-\nofMParguments=\count411
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count412
-\MPscratchDim=\dimen287
-\MPnumerator=\count413
-\makeMPintoPDFobject=\count414
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count378
+\scratchdimen=\dimen275
+\scratchbox=\box65
+\nofMPsegments=\count379
+\nofMParguments=\count380
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count381
+\MPscratchDim=\dimen276
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1023,14 +944,8 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-\c@lstlisting=\count415
+\c@lstlisting=\count384
 
-No file pythontex-files-main/main.pytxmcr.
-Run PythonTeX to create it.
-Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 4.
-\c@listing=\count416
-Package newfloat Info: float type `listing'=8 on input line 4.
-\c@lopytxdepth=\count417
 
 /home/pessoal/repos/ufabc_operational_systems/projects/project_1/text/main.tex:8: Package babel Error: You haven't defined the language 'brazil' yet.
 (babel)                Perhaps you misspelled it or your installation
@@ -1083,8 +998,68 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@pytx@py@default@default@line=\count418
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 9.
+ [2
 
+]
+
+./chapters/p1.tex:88: Package babel Error: You haven't defined the language 'brazil' yet.
+(babel)                Perhaps you misspelled it or your installation
+(babel)                is not complete.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88             self.
+                      wait_time = 0
+Your command will be ignored, type <return> to proceed
+
+[3]
+
+./chapters/p1.tex:133: Package babel Error: You haven't defined the language 'brazil' yet.
+(babel)                Perhaps you misspelled it or your installation
+(babel)                is not complete.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133                 processes_attributes.
+                                           append(tuple(line))
+Your command will be ignored, type <return> to proceed
+
+[4]
+Overfull \hbox (11.90244pt too wide) in paragraph at lines 157--159
+[][] 
+ []
+
+
+./chapters/p1.tex:178: Package babel Error: You haven't defined the language 'brazil' yet.
+(babel)                Perhaps you misspelled it or your installation
+(babel)                is not complete.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178                 sleep(
+                            10)
+Your command will be ignored, type <return> to proceed
+
+[5]
 ./chapters/p1.tex:202: Missing $ inserted.
 <inserted text> 
                 $
@@ -1109,7 +1084,7 @@ Overfull \hbox (155.8053pt too wide) in paragraph at lines 201--204
 \T1/lmr/m/n/12 (-20) wait$[]\OML/lmm/m/it/12 imedosdemaisprocessosem\OT1/lmr/m/n/12 (-20) 10 \OMS/lmsy/m/n/12 ^^@ \OT1/lmr/m/n/12 (-20) �\OML/lmm/m/it/12 aumentadaem\OT1/lmr/m/n/12 (-20) 1\OML/lmm/m/it/12 aprioridadedoprocessocomomaiorCPU[]urstdamenorprioridades$ 
  []
 
-<images/SO_p1p1.png, id=15, 492.84125pt x 868.24374pt>
+<images/SO_p1p1.png, id=202, 492.84125pt x 868.24374pt>
 File: images/SO_p1p1.png Graphic file (type png)
 <use images/SO_p1p1.png>
 Package pdftex.def Info: images/SO_p1p1.png  used on input line 207.
@@ -1119,9 +1094,20 @@ Overfull \hbox (74.82869pt too wide) in paragraph at lines 207--208
 [][] 
  []
 
-[2
 
-]
+./chapters/p1.tex:209: Package babel Error: You haven't defined the language 'brazil' yet.
+(babel)                Perhaps you misspelled it or your installation
+(babel)                is not complete.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.209 O
+       s primeiros outputs indicam a criação dos processos que vieram do a...
+Your command will be ignored, type <return> to proceed
+
+[6]
 Overfull \vbox (180.99162pt too high) has occurred while \output is active []
 
 
@@ -1135,10 +1121,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.209 O
-       s primeiros outputs indicam a creação dos processos que vieram do a...
+       s primeiros outputs indicam a criação dos processos que vieram do a...
 Your command will be ignored, type <return> to proceed
 
-[3 <./images/SO_P1P1.png>]
+[7 <./images/SO_P1P1.png>]
 ./chapters/p1.tex:214: Missing $ inserted.
 <inserted text> 
                 $
@@ -1155,10 +1141,9 @@ l.216
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-)
-No file main.ind.
+) (./chapters/p2.tex
 
-/home/pessoal/repos/ufabc_operational_systems/projects/project_1/text/main.tex:43: Package babel Error: You haven't defined the language 'brazil' yet.
+./chapters/p2.tex:1: Package babel Error: You haven't defined the language 'brazil' yet.
 (babel)                Perhaps you misspelled it or your installation
 (babel)                is not complete.
 
@@ -1166,24 +1151,32 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \end{document}
-                   
+l.1 \chapter
+            {Problema 2}
 Your command will be ignored, type <return> to proceed
 
-[4] (./main.aux (./abntex2-modelo-include-comandos.aux)) ) 
+[8] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+))
+No file main.ind.
+[9
+
+] (./main.aux (./abntex2-modelo-include-comandos.aux)) ) 
 Here is how much of TeX's memory you used:
- 24406 strings out of 480171
- 418433 string characters out of 5894489
- 909510 words of memory out of 5000000
- 41904 multiletter control sequences out of 15000+600000
- 501467 words of font info for 66 fonts, out of 8000000 for 9000
+ 22827 strings out of 480171
+ 375090 string characters out of 5894489
+ 1364458 words of memory out of 5000000
+ 40173 multiletter control sequences out of 15000+600000
+ 505582 words of font info for 72 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 99i,13n,96p,1071b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (4 pages, 166326 bytes).
+ 99i,13n,96p,1071b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (9 pages, 247899 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 18458 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 193 named destinations out of 1000 (max. 500000)
+ 22050 words of extra memory for PDF output out of 24883 (max. 10000000)
 

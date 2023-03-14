@@ -5,7 +5,7 @@
 Para melhor organização do código, foram criadas as seguintes classes:
 
 MQP - Uma implementação que representa a Multilevel Queue Priority
-\begin{pycode}
+\begin{python}
     from process import Process
     from typing import List
     import operator
@@ -76,10 +76,10 @@ MQP - Uma implementação que representa a Multilevel Queue Priority
                     process.print_table()
             
             print("  +" + "-" * 15 + "+" + "-" * 8 + "+" + "-" * 9 + "+\n")
-\end{pycode}
+\end{python}
 
     Process - implementação de uma estrutura de dados para representar os processos
-    \begin{pycode}
+    \begin{python}
         class Process:
         def __init__(self, name: str, priority: int, CPU_burst: int) -> None:
             self.name = name
@@ -97,10 +97,10 @@ MQP - Uma implementação que representa a Multilevel Queue Priority
             print(f"  |{'Process CPU_burst':18}: {str(self.CPU_burst):12}|")
             print(f"  |{'Process wait_time':18}: {str(self.wait_time):12}|")
             print("  " + "+" + "-" * 18 + "+" + "-" * 13 + "+")
-    \end{pycode}
+    \end{python}
 
     E então, utilizadas as classes no código principal
-    \begin{pycode}
+    \begin{python}
     from time import sleep
     from typing import Tuple, List 
     import logging
@@ -186,7 +186,7 @@ MQP - Uma implementação que representa a Multilevel Queue Priority
 
     if __name__ == "__main__":
         main()
-\end{pycode}
+\end{python}
 
 O programa recebe os processos através do arquivo `processes.txt`. A partir do texto recebido, cria instâncias da classe Process para representar os processos.
 
@@ -206,7 +206,7 @@ Escolhido o processo atual, são printadas as informações a respeito do mesmo.
 
 \includegraphics{images/SO_p1p1}
 
-Os primeiros outputs indicam a creação dos processos que vieram do arquivo `processes.txt`. Mais informações a respeito deles é mostrada na primeira tabela.
+Os primeiros outputs indicam a criação dos processos que vieram do arquivo `processes.txt`. Mais informações a respeito deles é mostrada na primeira tabela.
 
 Então é printado "Starting the scheduling process" que indica que entrou na fase de escolar os processos. E então, para cada processo executado, é printada uma tabela com as seguintes informaçoes:
 * Nome do processo
