@@ -56,8 +56,10 @@ int main() {
         valor1 /= 20;
         wait(NULL);
         while (1);
-        printf("O status do file1Open eh %d e o file2Open eh %d \n", file1Open,
-        file2Open);
+        printf(
+            "O status do file1Open eh %d e o file2Open eh %d \n", 
+            file1Open, file2Open
+        );
         printf(" O valor1 = %d\n",valor1);
         return 0;
     }
