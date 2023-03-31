@@ -1,0 +1,128 @@
+\chapter{Questao 1}
+
+A solução proposta utiliza o método `named pipe` onde há um processo responsável por criar um arquivo através da função fifo, o processo coletor e o displayer se comunicam através desse arquivo.
+Segue abaixo o código em C.
+
+\subsection*{named\_pipe}
+Processo responsável por criar o arquivo utlizando a função fifo.
+
+\begin{lstlisting}[style=CStyle]
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <sys/stat.h>
+    #include <sys/types.h>
+    
+    
+    int main() {
+        const char* pipeF = "fifoF";
+    
+        if (mkfifo(pipeF, 0777) < 0) {
+            printf("Ops...erro:");
+            exit(1);
+        }
+        else {
+            printf("Queue named pipe feita!!!\n");
+        }
+    }
+\end{lstlisting}
+
+
+\subsection*{coletor}
+
+O processo coletor é responsável por escrever as cotações no arquivo fifo
+\begin{lstlisting}[style=CStyle]
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <fcntl.h>
+    #include <sys/stat.h>
+    #include <sys/types.h>
+    #include <unistd.h>
+    #include <stdlib.h>
+
+    #define FIFO_FILE "fifoF"
+
+    struct cotacao {
+        char moeda_origem[4];
+        char moeda_destino[4];
+        float valor;
+        char data_hora[20];
+    };
+
+    int main() {
+        int fd;
+        struct cotacao cotacoes[15] = {
+            {"USD", "BRL", 5.25, "2023-01-20T10:31:00"},
+            {"EUR", "BRL", 6.20, "2023-01-20T10:31:00"},
+            {"CNY", "BRL", 0.76, "2023-01-20T10:31:00"},
+            {"RUB", "BRL", 0.07, "2023-01-20T10:31:00"},
+            {"ARS", "BRL", 0.03, "2023-01-20T10:31:00"},
+            {"ASA", "BRL", 0.30, "2023-01-20T10:31:00"},
+            {"ABL", "BRL", 0.35, "2023-01-20T10:31:00"},
+            {"SFR", "BRL", 5.35, "2023-01-20T10:31:00"},
+            {"LEV", "BRL", 1.35, "2023-01-20T10:31:00"},
+            {"BAR", "BRL", 3.35, "2023-01-20T10:31:00"},
+            {"THS", "BRL", 2.35, "2023-01-20T10:31:00"},
+            {"BTC", "BRL", 145000.25, "2023-01-20T10:31:00"},
+            {"ETH", "BRL", 9430.35, "2023-01-20T10:31:00"},
+            {"ADA", "BRL", 1.55, "2023-01-20T10:31:00"},
+            {"AJA", "BRL", 2.35, "2023-01-20T10:31:00"},
+            {"BOC", "BRL", 0.75, "2023-01-20T10:31:00"},
+        };
+
+        fd = open(FIFO_FILE, O_WRONLY);
+
+        if (fd < 0) {
+            perror("open");
+            exit(1);
+        }
+
+        for (int i = 0; i < 15; i++) {
+            write(fd, &cotacoes[i], sizeof(struct cotacao));
+        }
+
+        close(fd);
+
+        return 0;
+    }
+\end{lstlisting}
+
+\subsection*{displayer}
+
+o processo displayer lê as informçaões escritas pelo coletor no arquivo fifo e apresenta as informações.
+
+\begin{lstlisting}[style=CStyle]
+    #include <stdio.h>
+    #include <fcntl.h>
+    #include <sys/stat.h>
+    #include <sys/types.h>
+    #include <unistd.h>
+    
+    #define FIFO_FILE "fifoF"
+    
+    struct cotacao {
+        char moeda_origem[4];
+        char moeda_destino[4];
+        float valor;
+        char data_hora[20];
+    };
+    
+    int main() {
+        int fd;
+        struct cotacao cotacao;
+    
+        fd = open(FIFO_FILE, O_RDONLY);
+    
+        while (read(fd, &cotacao, sizeof(struct cotacao)) > 0) {
+            printf("Moeda origem: %s\n", cotacao.moeda_origem);
+            printf("Moeda destino: %s\n", cotacao.moeda_destino);
+            printf("Valor: %.2f\n", cotacao.valor);
+            printf("Data-hora: %s\n", cotacao.data_hora);
+            printf("\n");
+        }
+    
+        close(fd);
+    
+        return 0;
+    }
+    
+\end{lstlisting}
