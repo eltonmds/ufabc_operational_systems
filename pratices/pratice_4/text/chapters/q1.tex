@@ -1,0 +1,111 @@
+\chapter{Questao 1}
+
+\subitem{Parte A}
+
+Na situação proposta, temos os seguintes pontos:
+- O SO alocou 1 página para o texto do código
+- O SO alocou 3 páginas para as matrizes
+- Cada matriz ocupa 16 páginas de memória
+- A operação da linha 7 é executada 4096 (64 x 64) vezes
+- Para cada execução da linha 7, é executada
+ uma operação de leitura nas matrizes A e B,
+ e uma operação de escrita na matriz C
+
+Para o cálculo, considera-se que o SO em questão utiliza a
+ gestão de page replacement LRU (Least Recently Used). Com isso,
+ pode-se desconsiderar a página alocada para o texto do código,
+ pois ela nunca será a página menos recentemente usada.
+
+Temos as seguintes variáveis:
+ - Número de execuções da linha 7: 4096
+ - Quantidade de páginas alocadas*: 3
+ - Quantidade de páginas por matriz: 16
+ - Quantidade de matrizes: 3
+
+*considerando apenas as páginas das matrizes
+
+Dado a forma de posicionamento descrita no enunciado, e que o 
+acesso às matrizes é sequencial. Temos que a cada 3 páginas de
+ execução, haverá 1 page fault para cada matriz, ou seja, 3 page
+ faults ao todo.
+
+Então temos que:
+ - Quantidade de page faults a cada 3 páginas de execução: 3
+
+
+Com essas informações, é possível fazer o cálculo da quantidade de
+ page faults na execução do programa. Segue a implementação abaixo.
+
+ \begin{lstlisting}[style=CStyle]
+    #include <stdio.h>
+    #define Size 64
+    
+    int main() {
+        int A[Size][Size], B[Size][Size], C[Size][Size];
+        int i, j;
+        int page_faults = -3; // variável para contagem dos page_faults
+        for (j = 0; j< Size; j ++) {
+            for (i = 0; i< Size; i++) {
+                C[i][j] = A[i][j] + B[i][j];
+                if (i % 3 == 0) page_faults += 3; // A cada 3 iterações, acontecem 3 page_faults
+            }
+        }
+    
+        printf("page_faults: %d\n", page_faults);
+    
+        return 0;
+    }
+ \end{lstlisting}
+ 
+Obs: a variável `page_faults` é inicializada em -3 para
+ desconsiderar a primeira iteração, pois na primeira iteração
+ não ocorre o page fault. 
+
+Com a execução desse programa, obteve-se o total de \textbf{4221}
+ page faults. A frequência de page faults para cada iteração seria então:
+
+ \[4221/4096 = 1.03 page faults por iteração\]
+
+
+
+\subitem{Parte B}
+
+O grande problema que causa o número elevado de page faults é que,
+ devido ao posicionamento da matriz nas páginas de memória, o
+ programa não utiliza todos os valores da matriz presentes naquela
+ página. Tornando-se necessário acessar aquela página novamente
+ em uma outra iteração.
+
+A mudança para resolver isso seria trocar os iteradores `i` e `j` de lugar.
+ Com essa mudança, todos os valores de uma dada página seriam acessados todos de
+ no mesmo acesso àquela página. E com isso, não seria acessar a mesma
+ página várias vezes.
+
+Segue a implementação dessa mudança:
+
+#include <stdio.h>
+#define Size 64
+
+\begin{lstlisting}[style=CStyle]
+    #include <stdio.h>
+    #define Size 64
+    
+    int main() {
+        int A[Size][Size], B[Size][Size], C[Size][Size];
+        int i, j;
+        int page_faults = -3; // variável para contagem dos page_faults
+        for (j = 0; j< Size; j ++) {
+            for (i = 0; i< Size; i++) {
+                C[j][i] = A[j][i] + B[j][i];
+            }
+            if (j % 3 == 0) page_faults += 3; // A cada 3 iterações, acontecem 3 page_faults
+        }
+    
+        printf("page_faults: %d\n", page_faults);
+    
+        return 0;
+    }
+\end{lstlisting}
+
+Com essa mudança, o número total de page
+ faults caiu para \textbf{63}
