@@ -1,13 +1,4 @@
-
-\chapter{Questao 2}
-
-Para a implementação do algoritmo foi utilizada a linguagem Python.
-Foi criada uma classe chamada `FifoSession` para melhor organização do código.
-
-\subsection*{Classe Fifo Session}
-\begin{python}
-from random im
-port randint
+from random import randint
 from typing import List
 import logging
 
@@ -53,27 +44,3 @@ class FifoSession:
         else:
             self.insert_page(page, frames)
             
-\end{python}
-
-\subsection*{Programa Principal}
-\begin{python}
-from random import randint
-from fifo import FifoSession
-
-
-def main() -> None:
-    requested_pages = [randint(0, 9) for _ in range(9)]
-    frames = []
-
-    fifo = FifoSession(3)
-    fifo.print_page_table(frames)
-
-    for page in requested_pages:
-        print(f"requesting page: {page}")
-        fifo.request_page(page, frames)
-        fifo.print_page_table(frames)
-
-if __name__ == "__main__":
-    main()
-    
-\end{python}
