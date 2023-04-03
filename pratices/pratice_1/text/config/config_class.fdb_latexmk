@@ -4,7 +4,7 @@
   (generated)
   "config_class.ilg"
   "config_class.ind"
-["pdflatex"] 1680477735 "/home/magalu/repos/ufabc_operational_systems/pratices/pratice_1/text/config/config_class.tex" "config_class.pdf" "config_class" 1680477735
+["pdflatex"] 1680561755 "/home/magalu/repos/ufabc_operational_systems/pratices/pratice_1/text/config/config_class.tex" "config_class.pdf" "config_class" 1680561755
   "/etc/texmf/web2c/texmf.cnf" 1677288678 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/magalu/repos/ufabc_operational_systems/pratices/pratice_1/text/config/config_class.tex" 1680270309 5324 6d70424b317a3b2787cfa0bc4935fe5f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -120,7 +120,7 @@
   "/usr/share/texmf/tex/latex/lm/t1lmr.fd" 1256929440 1865 afbfccbe7fda9c2dc5078ad7c486bbed ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1677288750 1435837 b4d7bc1431b7a7f04c2a6b243bd4dbf2 ""
-  "config_class.aux" 1680477735 32 3985256e7290058c681f74d7a3565a19 ""
+  "config_class.aux" 1680561755 32 3985256e7290058c681f74d7a3565a19 ""
   "config_class.ind" 0 -1 0 "makeindex config_class.idx"
   "config_class.tex" 1680270309 5324 6d70424b317a3b2787cfa0bc4935fe5f ""
   (generated)
